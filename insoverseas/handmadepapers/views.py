@@ -110,3 +110,8 @@ def cards (request):
 
 def fatory (request):
     return render(request,'factorytour.html')
+
+
+
+def Lbags (request):
+    return render(request,'Lbags.html')
