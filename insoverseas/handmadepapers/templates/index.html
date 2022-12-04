@@ -26,7 +26,7 @@
         <!-- this line will appear only if the website is visited with an iPad -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.2, user-scalable=yes" />
 
-        <title>Pink Rio | A strong, powerful and multiporpose WordPress Theme</title>
+        <title>Insovereas Handmade papers </title>
         <meta name="author" content="">
     <meta name="keywords" content="">
     <meta name="description" content="">
@@ -55,6 +55,7 @@
         <!-- FONTs -->
         <link rel="stylesheet" id="google-fonts-css" href="http://fonts.googleapis.com/css?family=Oswald%7CDroid+Sans%7CPlayfair+Display%7COpen+Sans+Condensed%3A300%7CRokkitt%7CShadows+Into+Light%7CAbel%7CDamion%7CMontez&amp;ver=3.4.2" type="text/css" media="all" />
         <link rel='stylesheet' href="{% static '' %}css/font-awesome.css" type='text/css' media='all' />
+        <link rel='stylesheet' href="{% static '' %}what.css" type='text/css' media='all' />
 
         <!-- JAVASCRIPTs -->
         <script type="text/javascript" src="{% static '' %}js/jquery.js"></script>
@@ -197,12 +198,14 @@ span.psw {
 }
 </style>
     </head>
-    <!-- END HEAD -->
+
+
+
+
+  <!-- END HEAD -->
 
     <!-- START BODY -->
     <body class="no_js responsive stretched">
-
-
 
         <!-- START BG SHADOW -->
         <div class="bg-shadow">
@@ -217,15 +220,22 @@ span.psw {
 
                         <!-- START LOGO -->
                         <div id="logo" class="group">
-                            <a href="index.html" title="Pink Rio"><img src="images/logo.png" title="Pink Rio" alt="Pink Rio" /></a>
+                            <a href="/" title="Pink Rio"><img src="{% static 'crp.png' %}" title="tajhandmadepapers" alt="tajhandmadepapers"  width="70" height="70" /></a>
                         </div>
                         <!-- END LOGO -->
 
                         <div id="sidebar-header" class="group">
                             <div class="widget-first widget yit_text_quote">
-                                <blockquote class="text-quote-quote">&#8220;The caterpillar does all the work but the butterfly gets all the publicity.&#8221;</blockquote>
-                                {% include "form.html" %}
-                                <cite class="text-quote-author">George Carlin</cite>
+                                <blockquote class="text-quote-quote"><p style="color:green;"><b>WELCOME TO THE INSOVERSEAS HANDMADE PAPERS </b></p></blockquote>
+                                <cite class="text-quote-author"> Manufacturer and exporter of traditional handmade paper and paper products</cite>
+<div>
+
+
+
+
+</div>
+
+
 
                             </div>
                         </div>
@@ -238,91 +248,92 @@ span.psw {
                             <ul id="nav" class="menu">
 
                                 <li>
-                                    <a href="index.html">HOME</a>
+                                    <a href="/">HOME</a>
                                     <ul class="sub-menu">
-                                        <li><a href="home-ii.html">Home II</a></li>
-                                        <li><a href="home-iii.html">Home III</a></li>
-                                        <li><a href="home-iv.html">Home IV</a></li>
-                                        <li><a href="home-v.html">Home V</a></li>
-                                        <li><a href="home-vi.html">Home VI</a></li>
-                                        <li><a href="home-vii.html">Home VII</a></li>
-                                        <li><a href="home-viii.html">Home VIII</a></li>
-                                        <li><a href="home-ix.html">Home IX</a></li>
-                                        <li><a href="home-x.html">Home X</a></li>
-                                        <li><a href="landing-page.html">Landing page</a></li>
+                                        <li><a href="/"><p style="color:black;">HOME.</p></a></li>
+
                                     </ul>
                                 </li>
 
                                 <li>
-                                    <a href="#">SLIDERS</a>
+                                    <a href="/handmadepapers/about/">ABOUT US</a>
                                     <ul class="sub-menu">
-                                        <li><a href="slider-layerslider.html">LayerSlider</a></li>
-                                        <li><a href="slider-flexslider.html">FlexSlider</a></li>
-                                        <li><a href="slider-elastic-slider.html">Elastic</a></li>
-                                        <li><a href="slider-thumbnails.html">Thumbnails</a></li>
-                                        <li><a href="slider-cycle.html">Cycle</a></li>
-                                        <li><a href="slider-static-header.html">Static header</a></li>
+                                        <li><a href="/handmadepapers/about/">ABOUT US</a></li>
+
                                     </ul>
                                 </li>
 
                                 <li>
-                                    <a href="#">CORPORATE</a>
+                                    <a href="#">PRODUCTS</a>
                                     <ul class="sub-menu">
-                                        <li><a href="corporate-about.html">About</a></li>
-                                        <li><a href="landing-page.html">Landing page</a></li>
-                                        <li><a href="corporate-videogallery.html">Videogallery</a></li>
-                                        <li><a href="corporate-testimonials.html">Testimonials</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="/handmadepapers/leatherjournal/">JOURNAL</a></li>
+                                        <li><a href="/handmadepapers/Lbags/">LEATHER BAGS</a></li>
+                                        <li><a href="/handmadepapers/christmas/">CHRISTMAS</a></li>
+                                        <li><a href="/handmadepapers/paperbags/">PAPERSBAG</a></li>
+                                        <li><a href="/handmadepapers/handmadepaper/">HANDMADEPAPERS</a></li>
+                                          <li><a href="/handmadepapers/lamp/">LAMP</a></li>
+                                        <li><a href="/handmadepapers/boxes/">BOXES</a></li>
+                                        <li><a href="/handmadepapers/gift/">GIFT</a></li>
+                                        <li><a href="/handmadepapers/cards/">CARDS</a></li>
+
                                     </ul>
                                 </li>
 
                                 <li>
-                                    <a href="#">PORTFOLIO</a>
+                                    <a href="/handmadepapers/factoury/">FACTORY TOUR</a>
                                     <ul class="sub-menu">
-                                        <li><a href="portfolio-filterable.html">Filterable</a></li>
-                                        <li><a href="portfolio-three-columns.html">Three columns</a></li>
-                                        <li><a href="project.html">Full description</a></li>
-                                        <li><a href="portfolio-big-image.html">Big Image</a></li>
+                                        <li><a href="/handmadepapers/factoury/">FACTORY TOUR</a></li>
+
+
                                     </ul>
                                 </li>
+
+
+
+
+
+
+
+
+                                 <li>
+                                    <a href="/handmadepapers/seedpapers/">SEEDPAPERS</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="/handmadepapers/seedpapers/">SEEDPAPERS</a></li>
+
+
+                                    </ul>
+                                </li>
+
+
+
+
+<li>
+                                    <a href="/handmadepapers/gallery/">GALLERY</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="/handmadepapers/gallery/">GALLERY</a></li>
+
+
+                                    </ul>
+                                </li>
+
+
+
+
 
                                 <li>
-                                    <a href="#">BLOG</a>
+                                    <a href="/handmadepapers/contact/">CONTACT</a>
                                     <ul class="sub-menu">
-                                        <li><a href="blog-big-image.html">Big image</a></li>
-                                        <li><a href="blog-small-image.html">Small image</a></li>
+                                        <li><a href="/handmadepapers/contact/">CONTACT</a></li>
+
+
                                     </ul>
                                 </li>
-
                                 <li>
-                                    <a href="#">FEATURES</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="features-right-sidebar.html">Right sidebar</a></li>
-                                        <li><a href="features-left-sidebar.html">Left sidebar</a></li>
-                                        <li><a href="features-full-width.html">Full width</a></li>
-                                        <li><a href="error-404.html">404 error</a></li>
-                                    </ul>
-                                </li>
 
-                                <li>
-                                    <a href="#">SHORTCODES</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="shortcodes-typography.html">Typography</a></li>
-                                        <li><a href="shortcodes-icon-section.html">Icon section</a></li>
-                                        <li><a href="shortcodes-alert-box-buttons.html">Alert box &#038; Buttons</a></li>
-                                        <li><a href="shortcodes-tables-box-prices.html">Tables &#038; Box prices</a></li>
-                                        <li><a href="shortcodes-media-widgets.html">Media &#038; Widgets</a></li>
-                                        <li><a href="shortcodes-mix-various.html">Mix &#038; Various</a></li>
-                                    </ul>
-                                </li>
 
-                                <li class="remove-under-1024">
-                                    <a href="http://themeforest.net/item/pink-rio-responsive-multipurpose-theme/3091259">PURCHASE PINK RIO</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="http://www.yourinspirationweb.com/tf/support/forum/viewforum.php?f=27">Support forum</a></li>
-                                    </ul>
-                                </li>
 
+
+ </ul>
                             </ul>
                         </div>
                         <!-- END MAIN NAVIGATION -->
@@ -333,48 +344,54 @@ span.psw {
                 </div>
                 <!-- END HEADER -->
 
+
+
+
+
+
+
                 <!-- BEGIN #slider -->
 				<div id="slider-elastic" class="slider elastic ei-slider" style="width: 100%; height: 400px;">
 				    <div class="ei-slider-loading">Loading</div>
 				    <ul class="ei-slider-large">
 				        <li class="first slide-1 slide">
-				            <a href="http://www.google.it" target="_blank"><img src="images/slider-elastic/sci11.jpg" alt="sci11" title="sci11" /></a>
+				            <a href="" target="_blank"><img src="{% static '' %}slide.jpg" alt="sci11" title="" /></a>
 				            <div class="ei-title">
-				                <h2><a href="http://www.google.it" target="_blank">love the sport</a></h2>
-				                <h3>...feel the music</h3>
+				                <h2><a href="" target="_blank">BEST HANDMADE PAPERS </a></h2>
+
 				            </div>
 				        </li>
 				        <li class="slide-2 slide">
-				            <img width="1280" height="500" src="images/slider-elastic/dolce11.jpg" alt="dolce11" title="dolce11" />
+				            <img width="1280" height="500" src="{% static '' %}slide.jpg" alt="dolce11" title=" " />
 				            <div class="ei-title">
-				                <h2>So sweet, so cute</h2>
-				                <h3>enjoy this theme</h3>
+				                <h2>GO GREEN SAVE EARTH</h2>
+
 				            </div>
 				        </li>
 				        <li class="slide-3 slide">
-				            <img src="images/slider-elastic/love1.jpg" alt="love1" title="love1" />
+				            <img src="{% static '' %}slide.jpg" alt="love1" title=" " />
 				            <div class="ei-title">
-				                <h2>This premium theme</h2>
-				                <h3>a great solution</h3>
+				                <h2>100% ECO FRIENDLY PAPERS</h2>
+
 				            </div>
 				        </li>
 				        <li class="slide-4 slide align-">
-				            <img width="1280" height="500" src="images/slider-elastic/red-passion1.jpg" alt="red-passion1" title="red-passion1" />
+				            <img width="1280" height="500" src="{% static '' %}slide.jpg" alt="red-passion1" title=" " />
 				            <div class="ei-title">
-				                <h2>Love the red fruit</h2>
-				                <h3>... a red passion</h3>
+				                <h2>SAVE TREE SAVE PLANET</h2>
+
 				            </div>
 				        </li>
 				        <li class="last slide-5 slide align-">
-				            <img src="images/slider-elastic/xx21.jpg" alt="xx21" title="xx21" />
+				            <img src="{% static '' %}slide.jpg" alt="xx21" title="" />
 				            <div class="ei-title">
-				                <h2>Enjoy your freedom...</h2>
-				                <h3>and love your life</h3>
+				                <h2>HANDMADE PAPERS MANUFACTURER</h2>
+
 				            </div>
 				        </li>
 				    </ul>
 				    <!-- ei-slider-large -->
-				    <ul class="ei-slider-thumbs">
+<ul class="ei-slider-thumbs">
 				        <li class="ei-slider-element">Current</li>
 				        <li><a href="#">love the sport - </a><img src="images/slider-elastic/sci11-150x59.jpg" alt=" - " /></li>
 				        <li><a href="#">So sweet, so cute - </a><img src="images/slider-elastic/dolce11-150x59.jpg" alt=" - " /></li>
@@ -401,112 +418,15 @@ span.psw {
 				    });
 				</script>
 
-				<!-- START PRIMARY -->
-				<div id="primary" class="sidebar-right">
-				    <div class="inner group">
-				        <!-- START CONTENT -->
-				        <div id="content-home" class="content group">
-				            <div class="page type-page status-publish hentry group">
-				                <h1>Welcome to <span>Pink Rio,</span> a multipurpose theme</h1>
-				                <p>Proin luctus euismod diam et ultricies. Maecenas pharetra pellentesque ipsum nec egestas. Praesent scelerisque leo dui, vel rutrum dolor. Aenean at risus egestas urna accumsan aliquet.<a href="#"> Nullam risus mi,</a> posuere vel lacinia vel, aliquam vel massa. Ut rutrum magna quis leo imperdiet posuere. Nulla ut eros nibh, id viverra orci. Integer mollis rhoncus nibh in consectetur. Fusce in sapien neque.</p>
-				                <p>Integer eu est justo, eget porttitor sapien. Vivamus fermentum leo quis lacus tempus ac vestibulum tellus consectetur. Nulla at eros tellus. Nulla lorem risus, vulputate a faucibus vitae, <strong>semper a velit</strong>. Donec eget dolor lectus, eu dignissim nibh. Nullam mi lorem, pellentesque molestie sodales vitae, commodo vitae massa. Donec aliquam, lectus ut semper pulvinar, elit justo posuere justo, ultricies pretium elit velit id tellus. Maecenas at purus non elit semper<a href="#"> venenatis </a>a ac tortor.</p>
-				                <div class="border-line"></div>
-				                <h2>Our customers say..</h2>
-				                <div class="testimonials-slider">
-				                    <ul class="testimonials group">
-				                        <li>
-				                            <blockquote>
-				                                <p><a href="testimonial.html">&rdquo;I purchased this theme and I really like it. The theme authors have been very helpful in the support area of their[...]&rdquo;</a></p>
-				                            </blockquote>
-				                            <p class="meta"><strong><a href="testimonial.html" class="name">Erica Evans</a></strong>  - <a href="http://www.unisoftware.com">unisoftware.com</a></p>
-				                        </li>
-				                        <li>
-				                            <blockquote>
-				                                <p><a href="testimonial.html">&rdquo;Bookmark this theme as one of your “Must Haves for 2012” This theme is without a doubt one of our Top 5[...]&rdquo;</a></p>
-				                            </blockquote>
-				                            <p class="meta"><strong><a href="testimonial.html" class="name">Ricardo Mori</a></strong>  - <a href="http://www.net.ons.com">Netsons Inc</a></p>
-				                        </li>
-				                        <li>
-				                            <blockquote>
-				                                <p><a href="testimonial.html">&rdquo;I am absolutely thrilled with this theme! I have never built a website before but your instructions and design make it both[...]&rdquo;</a></p>
-				                            </blockquote>
-				                            <p class="meta"><strong><a href="testimonial.html" class="name">Elisa Meis</a></strong>  - <a href="http://www.google.com">Two in Love Society</a></p>
-				                        </li>
-				                        <li>
-				                            <blockquote>
-				                                <p><a href="testimonial.html">&rdquo;I already given a 5-star rating, but I also wanted to provide my two cents in case anyone is unsure about purchasing[...]&rdquo;</a></p>
-				                            </blockquote>
-				                            <p class="meta"><strong><a href="testimonial.html" class="name">Joy Mergot</a></strong>  - <a href="http://domingoroses.net">domingoroses.net</a></p>
-				                        </li>
-				                    </ul>
-				                    <div class="prev"></div>
-				                    <div class="next"></div>
-				                </div>
-				                <script type="text/javascript">
-				                    jQuery(function($){
-				                        $('.testimonials-slider ul').cycle({
-				                            fx : 'scrollHorz',
-				                            speed: 500,
-				                            timeout: 5000,
-				                            next: '.testimonials-slider .next',
-				                            prev: '.testimonials-slider .prev'
-				                        });
-				                    });
-				                </script>
-				            </div>
-				            <!-- START COMMENTS -->
-				            <div id="comments">
-				            </div>
-				            <!-- END COMMENTS -->
-				        </div>
-				        <!-- END CONTENT -->
-				        <!-- START SIDEBAR -->
-				        <div class="sidebar group">
 
-				            <div class="widget-first widget popular-posts">
-				                <h3>Latest news</h3>
-				                <div class="recent-post group">
-				                    <div class="hentry-post group">
-				                        <div class="thumb-img"><img src="images/articles/001-55x55.png" alt="001" title="001" /></div>
-				                        <div class="text">
-				                            <a href="article.html" title="Section shortcodes &amp; sticky posts!" class="title">Section shortcodes &amp; sticky posts!</a>
-				                            <p class="post-date">September 24, 2012</p>
-				                        </div>
-				                    </div>
-				                    <div class="hentry-post group">
-				                        <div class="thumb-img"><img src="images/articles/003-55x55.jpg" alt="003" title="003" /></div>
-				                        <div class="text">
-				                            <a href="article.html" title="Nice &amp; Clean. The best for your blog!" class="title">Nice &amp; Clean. The best for your blog!</a>
-				                            <p class="post-date">September 24, 2012</p>
-				                        </div>
-				                    </div>
-				                </div>
-				            </div>
-
-				            <div class="widget widget-icon-text group">
-				                <img class="icon-img" src="images/icons/heart.png" alt="" />
-				                <h3>12,895 sales</h3>
-				                <p>of our themes on ThemeForest</p>
-				            </div>
-
-				            <div class="widget-last widget widget-icon-text group">
-				                <img class="icon-img" src="images/icons/calc.png" alt="" />
-				                <h3>Call for a quote</h3>
-				                <p>Contact us for a free quote now!</p>
-
-{% include "form.html" %}
-
-
-
-				            </div>
-
-				        </div>
-				        <!-- END SIDEBAR -->
-				        <!-- START EXTRA CONTENT -->
-				        <!-- END EXTRA CONTENT -->
-				    </div>
-				</div>
 				<!-- END PRIMARY -->
+
+
+<center><h1 style="color:#006400;"><b>WELCOME TO THE INSOVERSEAS</b></h1></center>
+
+                <center><h5 style="color:#008000;"><b>100% ECO FRIENDLY PAPERS PRODUCTS</b></h5></center>
+                <center> <p><b>We are here to protect our environment and save our planet Making paper by hand at home can be a pretty simple process. It’s also a fantastic way to use up your old receipts, scrap papers, junk mail, and copy paper that you were about to throw in the recycling bin, and instead create a thing of glorious handmade beauty</b></p>  </center>
+                <center><p><b>Insoverseas papers are manufacturer and exporter of cotton recycled handmade paper and gift paper products in India and also have the largest production capacity in India to meet your highest demands. We are providing good quality of papers With Widest product , Icon of premium quality and customer service, Neck to neck pricing, Top brand reputation, Extra soft, hygienic and super absorbent products, and Extra care for you. The history of the paper is related to the history of human culture and civilization. The Egyptians, the Greeks, and the Romans wrote on "Papyrus", a paper – like the material. Today's paper was first developed and used in China. This paper was the most important carrier of information in the past since its birth</b></p></center>
 
 
 
@@ -521,133 +441,103 @@ span.psw {
                     <div class="hentry group">
 
                         <div class="section portfolio">
-                            <h3 class="title">Latest projects</h3>
+                       <center><h2 style="color:#006400;"><b>OUR MOST POPULAR CATEGORY</b></h2></center>
                             <div class="portfolio-projects">
 
                                 <div class="related_project">
                                     <div class="overlay_a related_img">
                                         <div class="overlay_wrapper">
-                                            <img src="images/projects/0061-175x175.jpg" alt="0061" title="0061" />
+                                            <img src="{% static '' %}mtwo.jpg" alt="0061" title="0061" />
                                             <div class="overlay">
-                                                <a class="overlay_img" href="images/projects/0061.jpg" rel="lightbox" title=""></a>
-                                                <a class="overlay_project" href="project.html"></a>
-                                                <span class="overlay_title">Love</span>
+                                                <a class="overlay_img" href="{% static '' %}mtwo.jpg" rel="lightbox" title=""></a>
+                                                <a class="overlay_project" href="/handmadepapers/leatherjournal/"></a>
+                                                <span class="overlay_title">LEATHER JOURNAL</span>
                                             </div>
                                         </div>
                                     </div>
-                                    <h4><a href="project.html">Love</a></h4>
-                                    <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, [...]
+                                    <h4><a href="project.html">LEATHER JOURNAL</a></h4>
+                                    <p>We are manufactuer of all type of lether journal it depends on consumer requirements
                                 </div>
 
                                 <div class="related_project">
                                     <div class="overlay_a related_img">
                                         <div class="overlay_wrapper">
-                                            <img src="images/projects/0071-175x175.jpg" alt="0071" title="0071" />
+                                            <img src="{% static '' %}mthree.jpg" alt="0071" title="0071" />
                                             <div class="overlay">
-                                                <a class="overlay_img" href="images/projects/0071.jpg" rel="lightbox" title=""></a>
-                                                <a class="overlay_project" href="project.html"></a>
-                                                <span class="overlay_title">Kineda</span>
+                                                <a class="overlay_img" href="{% static '' %}mthree.jpg" rel="lightbox" title=""></a>
+                                                <a class="overlay_project" href="/handmadepapers/Lbags/"></a>
+                                                <span class="overlay_title">LEATHER BAGS</span>
                                             </div>
                                         </div>
                                     </div>
-                                    <h4><a href="project.html">Kineda</a></h4>
-                                    <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, [...]
+                                    <h4><a href="project.html">LEATHER BAGS</a></h4>
+                                    <p>We also produce all type of leather bags it depends on actully what our consumer wants
                                 </div>
 
                                 <div class="related_project">
                                     <div class="overlay_a related_img">
                                         <div class="overlay_wrapper">
-                                            <img src="images/projects/0081-175x175.jpg" alt="0081" title="0081" />
+                                            <img src="{% static '' %}msix.jpg" alt="0081" title="0081" />
                                             <div class="overlay">
-                                                <a class="overlay_img" href="images/projects/0081.jpg" rel="lightbox" title=""></a>
-                                                <a class="overlay_project" href="project.html"></a>
-                                                <span class="overlay_title">Steep This!</span>
+                                                <a class="overlay_img" href="{% static '' %}msix.jpg" rel="lightbox" title=""></a>
+                                                <a class="overlay_project" href="/handmadepapers/paperbags/"></a>
+                                                <span class="overlay_title">PAPERS BAGS</span>
                                             </div>
                                         </div>
                                     </div>
-                                    <h4><a href="project.html">Steep This!</a></h4>
-                                    <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, [...]
+                                    <h4><a href="project.html">PAPERS BAGS</a></h4>
+                                    <p>We are manufacturer of cool stylish papers bags and make cool ecofriendly bag for people
                                 </div>
 
                                 <div class="related_project">
                                     <div class="overlay_a related_img">
                                         <div class="overlay_wrapper">
-                                            <img src="images/projects/009-175x175.jpg" alt="009" title="009" />
+                                            <img src="{% static '' %}monee.jpg" alt="009" title="009" />
                                             <div class="overlay">
-                                                <a class="overlay_img" href="images/projects/009.jpg" rel="lightbox" title=""></a>
-                                                <a class="overlay_project" href="project.html"></a>
-                                                <span class="overlay_title">Guanacos</span>
+                                                <a class="overlay_img" href="{% static '' %}monee.jpg" rel="lightbox" title=""></a>
+                                                <a class="overlay_project" href="/handmadepapers/christmas/"></a>
+                                                <span class="overlay_title">CHRISTMAS ORNAMENTS</span>
                                             </div>
                                         </div>
                                     </div>
-                                    <h4><a href="project.html">Guanacos</a></h4>
-                                    <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, [...]
+                                    <h4><a href="project.html">CHRISTMAS ORNAMENTS</a></h4>
+                                    <p>We are the exporter and producer of christmas gift item for people
                                 </div>
 
                                 <div class="related_project">
                                     <div class="overlay_a related_img">
                                         <div class="overlay_wrapper">
-                                            <img src="images/projects/0011-175x175.jpg" alt="0011" title="0011" />
+                                            <img src="{% static '' %}mfour.jpg" alt="0011" title="0011" />
                                             <div class="overlay">
-                                                <a class="overlay_img" href="images/projects/0011.jpg" rel="lightbox" title=""></a>
-                                                <a class="overlay_project" href="project.html"></a>
-                                                <span class="overlay_title">Miller Bob</span>
+                                                <a class="overlay_img" href="{% static '' %}mfour.jpg" rel="lightbox" title=""></a>
+                                                <a class="overlay_project" href="/handmadepapers/seedpapers/"></a>
+                                                <span class="overlay_title">SEED PAPERS</span>
                                             </div>
                                         </div>
                                     </div>
-                                    <h4><a href="project.html">Miller Bob</a></h4>
-                                    <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, [...]
+                                    <h4><a href="project.html">SEED PAPERS</a></h4>
+                                    <p>Seed papers are the best papers because we grow plant through this
                                 </div>
 
                                 <div class="related_project_last related_project">
                                     <div class="overlay_a related_img">
                                         <div class="overlay_wrapper">
-                                            <img src="images/projects/0027-175x175.jpg" alt="0027" title="0027" />
+                                            <img src="{% static '' %}mfive.jpg" alt="0027" title="0027" />
                                             <div class="overlay">
-                                                <a class="overlay_img" href="images/projects/0027.jpg" rel="lightbox" title=""></a>
-                                                <a class="overlay_project" href="project.html"></a>
-                                                <span class="overlay_title">VItale Premium</span>
+                                                <a class="overlay_img" href="{% static '' %}mfive.jpg" rel="lightbox" title=""></a>
+                                                <a class="overlay_project" href="/handmadepapers/handmadepaper/"></a>
+                                                <span class="overlay_title">HANDMADE PAPERS</span>
                                             </div>
                                         </div>
                                     </div>
-                                    <h4><a href="project.html">VItale Premium</a></h4>
-                                    <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, [...]
+                                    <h4><a href="project.html">HANDMADE PAPERS</a></h4>
+                                    <p>We are the best handmade papers manufacturer and produce almost 250 variety of papers
                                 </div>
 
                             </div>
                         </div>
 
-                        <div class="clear"></div>
-                        <div class="border-line"></div>
 
-                        <div class="box-sections">
-                            <img src="images/icons/set_icons/mphone32.png" alt="Get in touch with us" class="icon" />
-                            <h3><span style="line-height:32px">Get in touch with us</span></h3>
-                            <p>Lorem ipsum dolor sit amet, midas consectetur amet adipiscing lorem ipsum dolor sit amet, consectetur amet adipiscing elit parasem ionis.</p>
-                        </div>
-
-                        <div class="box-sections">
-                            <img src="images/icons/set_icons/new32.png" alt="A new WP Theme" class="icon" />
-                            <h3><span style="line-height:32px">A new WP Theme</span></h3>
-                            <p>Lorem ipsum dolor sit amet, midas consectetur amet adipiscing lorem ipsum dolor sit amet, consectetur amet adipiscing elit parasem ionis. </p>
-                        </div>
-
-                        <div class="box-sections">
-                            <img src="images/icons/set_icons/coffee32.png" alt="Do you enjoy it?" class="icon" />
-                            <h3><span style="line-height:32px">Do you enjoy it?</span></h3>
-                            <p>Lorem ipsum dolor sit amet, midas consectetur amet adipiscing lorem ipsum dolor sit amet, consectetur amet adipiscing elit parasem ionis.</p>
-                        </div>
-
-                        <div class="box-sections last">
-                            <img src="images/icons/set_icons/gift32.png" alt="Purchase it now" class="icon" />
-                            <h3><span style="line-height:32px">Purchase it now</span></h3>
-                            <p>Lorem ipsum dolor sit amet, midas consectetur amet adipiscing lorem ipsum dolor sit amet, consectetur amet adipiscing elit parasem ionis.</p>
-                        </div>
-
-                    </div>
-                    <!-- START COMMENTS -->
-                    <div id="comments">
-                    </div>
                     <!-- END COMMENTS -->
                 </div>
                 <!-- END CONTENT -->
@@ -663,31 +553,163 @@ span.psw {
 
 
 
-        <div style="background-color:black;">
 
-                        <!-- START PRIMARY -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- START PRIMARY -->
 				<div id="primary" class="sidebar-no">
 				    <div class="inner group">
 				        <!-- START CONTENT -->
 				        <div id="content-page" class="content group">
-				            <div class="hentry group">
+				            <div class="clear"></div>
+				            <div class="posts">
+				                <div class="group portfolio-post internal-post">
+				                    <div id="portfolio" class="portfolio-full-description">
 
-				                <h2>Media</h2>
 
-				                <h2>YouTube Video</h2>
-				                <div class="post_video youtube">
-				                    <iframe width="640" height="385" src="http://www.youtube.com/embed/wSBIcNmCAX0" frameborder="0" allowfullscreen></iframe>
+
+				                        <div class="portfolios hentry work group">
+				                            <div class="work-thumbnail">
+				                                <a class="thumb"><img src="{% static '' %}alexas.jpg" alt="0081" title="0081" /></a>
+				                            </div>
+				                            <div class="work-description">
+				                                <p>There was a need to increase the population and transfer knowledge, education, and information to society on a large scale, which was the factors that forced paper growth for a great increase. Paper was a valuable product in earlier times and paper made an art – which was often kept secret because of the outstanding benefits of the product. Handmade paper in India goes back as a third century BC. Handmade paper making is a traditional art that is popular for generations together by people of a particular class. This art has been passed from one generation to another generation of artisans. These artisans are known as "Kagzi's". His name is derived from the Urdu word 'Kavas', which means paper. The size of this community has decreased in the last few years. There is a small area of 'insoverseas' in Sanganer near Jaipur, where a section of this community had settled thousands of years ago.</p>
+				                                <p>The 'Kagzi' community in Sanganer is the primary owner of the handmade paper industry in the town. Our history comes back in the 14th century when ruler Firoze Shah Tughlaq was there. Even in those days, handmade paper made by them was used to make copies of official documents, miniatures, calligraphy, and Holy Quran and to maintain account books. In the 16th century, Raja Man Singh, the then ruler of Ambar, brought the Kagzi in Sanganer and settled them on the banks of Saraswati river, where clear water was easily available. Thus, this city has emerged as one of North India's largest paper producing centers</p>
+
+				                                <div class="clear"></div>
+
+				                            </div>
+				                            <div class="clear"></div>
+				                        </div>
+
+				                        <div class="clear"></div>
+
+                                        <center><h3><b>OTHER PRODUCTS</b></h3></center>
+
+				                        <div class="portfolio-full-description-related-projects">
+
+
+
+				                        </div>
+				                    </div>
+				                    <div class="clear"></div>
 				                </div>
-
-
+				            </div>
 				        </div>
 				        <!-- END CONTENT -->
-				        <!-- START EXTRA CONTENT -->
-				        <!-- END EXTRA CONTENT -->
 				    </div>
 				</div>
 				<!-- END PRIMARY -->
-</div>
+
+
+<center><img src="{% static '' %}abyess-modified.png" alt="0081" title="" /></center>
+
+
+
+
+
+
+
+
+ <!-- START PRIMARY -->
+				<div id="primary" class="sidebar-no">
+				    <div class="inner group">
+				        <!-- START CONTENT -->
+				        <div id="content-page" class="content group">
+				            <div class="clear"></div>
+				            <div class="posts">
+				                <div class="group portfolio-post internal-post">
+				                    <div id="portfolio" class="portfolio-full-description">
+
+
+
+				                        <div class="portfolios hentry work group">
+				                            <div class="work-thumbnail">
+				                                <a class="thumb"><img src="{% static '' %}alexass.jpg" alt="" title="" /></a>
+				                            </div>
+				                            <div class="work-description">
+				                                <p>insoverseas handmade providing a variety of top-quality products to fulfilling the demands of our clients and consumer, we have become one of the largest leather journal manufacturers in India. We have the widest product portfolio and proud to get the icon of premium quality and customer service. insoverseas handmade papers believe in the neck to neck pricing and providing soft, hygienic, and absorbent products. With the help of these tags, we have maintained the reputation of our company and we provide good quality of papers</p>
+				                                <p>We use leather which is premium quality strong and durable so that it lasts for a long period and it tends to get better with age. The quality of the paper is premium and just perfect for writing anything with any pen. The leather journal provided by taj papers udyog is light-weight and comes in various latest and trendy designs. Different sizes are also available for customers so that they can choose according to their writing purposes. Journals with ancient designs are also available which helps the customers to connect with history</p>
+
+				                                <div class="clear"></div>
+
+				                            </div>
+				                            <div class="clear"></div>
+				                        </div>
+
+				                        <div class="clear"></div>
+
+				                        <h3></h3>
+
+				                        <div class="portfolio-full-description-related-projects">
+
+				                            <div class="related_project">
+				                                <a class="related_proj related_img" href="/handmadepapers/leatherjournal/" title="LEATHERJOURNAL"><img src="{% static '' %}leatherjournal.jpg" alt="0061" title="" /></a>
+
+				                            </div>
+
+				                            <div class="related_project">
+				                                <a class="related_proj related_img" href="/handmadepapers/Lbags/" title="LEATHERBAGS"><img src="{% static '' %}mthree.jpg" alt="0071" title="" /></a>
+
+				                            </div>
+
+				                            <div class="related_project">
+				                                <a class="related_proj related_img" href="/handmadepapers/christmas/" title="CHRISTMASORNAMENTS"><img src="{% static '' %}monee.jpg" alt="009" title="" /></a>
+
+				                            </div>
+
+				                            <div class="related_project">
+				                                <a class="related_proj related_img" href="/handmadepapers/paperbags/" title="PAPERSBAG"><img src="{% static '' %}moneee.jpg" alt="0011" title="" /></a>
+
+				                            </div>
+
+				                            <div class="related_project">
+				                                <a class="related_proj related_img" href="/handmadepapers/handmadepaper/" title="HANDMADEPAPERS"><img src="{% static '' %}moneees.jpg" alt="0027" title="" /></a>
+
+				                            </div>
+
+				                            <div class="related_project_last related_project">
+				                                <a class="related_proj related_img" href="/handmadepapers/boxes/" title="PAPERSBOXES"><img src="{% static '' %}moneeess.jpg" alt="0034" title="" /></a>
+
+				                            </div>
+
+
+
+				                        </div>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </div>
+				        </div>
+				        <!-- END CONTENT -->
+				    </div>
+				</div>
+				<!-- END PRIMARY -->
+
+
+
+
+
+<center><img src="{% static '' %}abyesss-modified.png" alt="0081" title="insoverseas" /></center>
+
+
+
+
+
+
 
 
 
@@ -702,104 +724,219 @@ span.psw {
                     <div class="hentry group">
 
                         <div class="section portfolio">
-                            <h3 class="title">Latest projects</h3>
+                            <h3 class="title"></h3>
                             <div class="portfolio-projects">
 
                                 <div class="related_project">
                                     <div class="overlay_a related_img">
                                         <div class="overlay_wrapper">
-                                            <img src="images/projects/0061-175x175.jpg" alt="0061" title="0061" />
+                                            <img src="{% static '' %}mkkkkkk.jpg" alt="0061" title="0061" />
                                             <div class="overlay">
-                                                <a class="overlay_img" href="images/projects/0061.jpg" rel="lightbox" title=""></a>
-                                                <a class="overlay_project" href="project.html"></a>
-                                                <span class="overlay_title">Love</span>
+                                                <a class="overlay_img" href="{% static '' %}mkkkkkk.jpg" rel="lightbox" title=""></a>
+
+
                                             </div>
                                         </div>
                                     </div>
-                                    <h4><a href="project.html">Love</a></h4>
-                                    <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, [...]
+
                                 </div>
 
                                 <div class="related_project">
                                     <div class="overlay_a related_img">
                                         <div class="overlay_wrapper">
-                                            <img src="images/projects/0071-175x175.jpg" alt="0071" title="0071" />
+                                            <img src="{% static '' %}mkkkkk.jpg" alt="0071" title="0071" />
                                             <div class="overlay">
-                                                <a class="overlay_img" href="images/projects/0071.jpg" rel="lightbox" title=""></a>
-                                                <a class="overlay_project" href="project.html"></a>
-                                                <span class="overlay_title">Kineda</span>
+                                                <a class="overlay_img" href="{% static '' %}mkkkkk.jpg" rel="lightbox" title=""></a>
+
                                             </div>
                                         </div>
                                     </div>
-                                    <h4><a href="project.html">Kineda</a></h4>
-                                    <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, [...]
+
                                 </div>
 
                                 <div class="related_project">
                                     <div class="overlay_a related_img">
                                         <div class="overlay_wrapper">
-                                            <img src="images/projects/0081-175x175.jpg" alt="0081" title="0081" />
+                                            <img src="{% static '' %}mkkkk.jpg" alt="0081" title="0081" />
                                             <div class="overlay">
-                                                <a class="overlay_img" href="images/projects/0081.jpg" rel="lightbox" title=""></a>
-                                                <a class="overlay_project" href="project.html"></a>
-                                                <span class="overlay_title">Steep This!</span>
+                                                <a class="overlay_img" href="{% static '' %}mkkkk.jpg" rel="lightbox" title=""></a>
+
                                             </div>
                                         </div>
                                     </div>
-                                    <h4><a href="project.html">Steep This!</a></h4>
-                                    <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, [...]
+
                                 </div>
 
                                 <div class="related_project">
                                     <div class="overlay_a related_img">
                                         <div class="overlay_wrapper">
-                                            <img src="images/projects/009-175x175.jpg" alt="009" title="009" />
+                                            <img src="{% static '' %}mkkk.jpg" alt="009" title="009" />
                                             <div class="overlay">
-                                                <a class="overlay_img" href="images/projects/009.jpg" rel="lightbox" title=""></a>
-                                                <a class="overlay_project" href="project.html"></a>
-                                                <span class="overlay_title">Guanacos</span>
+                                                <a class="overlay_img" href="{% static '' %}mkkk.jpg" rel="lightbox" title=""></a>
+
                                             </div>
                                         </div>
                                     </div>
-                                    <h4><a href="project.html">Guanacos</a></h4>
-                                    <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, [...]
                                 </div>
 
                                 <div class="related_project">
                                     <div class="overlay_a related_img">
                                         <div class="overlay_wrapper">
-                                            <img src="images/projects/0011-175x175.jpg" alt="0011" title="0011" />
+                                            <img src="{% static '' %}mkk.jpg" alt="0011" title="0011" />
                                             <div class="overlay">
-                                                <a class="overlay_img" href="images/projects/0011.jpg" rel="lightbox" title=""></a>
-                                                <a class="overlay_project" href="project.html"></a>
-                                                <span class="overlay_title">Miller Bob</span>
+                                                <a class="overlay_img" href="{% static '' %}mkk.jpg" rel="lightbox" title=""></a>
+
                                             </div>
                                         </div>
                                     </div>
-                                    <h4><a href="project.html">Miller Bob</a></h4>
-                                    <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, [...]
+
                                 </div>
 
                                 <div class="related_project_last related_project">
                                     <div class="overlay_a related_img">
                                         <div class="overlay_wrapper">
-                                            <img src="images/projects/0027-175x175.jpg" alt="0027" title="0027" />
+                                            <img src="{% static '' %}mk.jpg" alt="0027" title="0027" />
                                             <div class="overlay">
-                                                <a class="overlay_img" href="images/projects/0027.jpg" rel="lightbox" title=""></a>
-                                                <a class="overlay_project" href="project.html"></a>
-                                                <span class="overlay_title">VItale Premium</span>
+                                                <a class="overlay_img" href="{% static '' %}mk.jpg" rel="lightbox" title=""></a>
+                                            </div>
+
+
+
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                <div class="related_project">
+                                    <div class="overlay_a related_img">
+                                        <div class="overlay_wrapper">
+                                            <img src="{% static '' %}mfourr.jpg" alt="0061" title="0061" />
+                                            <div class="overlay">
+                                                <a class="overlay_img" href="{% static '' %}mfourr.jpg" rel="lightbox" title=""></a>
+
                                             </div>
                                         </div>
                                     </div>
-                                    <h4><a href="project.html">VItale Premium</a></h4>
-                                    <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, [...]
+
                                 </div>
 
+                                <div class="related_project">
+                                    <div class="overlay_a related_img">
+                                        <div class="overlay_wrapper">
+                                            <img src="{% static '' %}mfivee.jpg" alt="0071" title="0071" />
+                                            <div class="overlay">
+                                                <a class="overlay_img" href="{% static '' %}mfivee.jpg" rel="lightbox" title=""></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="related_project">
+                                    <div class="overlay_a related_img">
+                                        <div class="overlay_wrapper">
+                                            <img src="{% static '' %}mfives.jpg" alt="0081" title="0081" />
+                                            <div class="overlay">
+                                                <a class="overlay_img" href="{% static '' %}mfives.jpg" rel="lightbox" title=""></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="related_project">
+                                    <div class="overlay_a related_img">
+                                        <div class="overlay_wrapper">
+                                            <img src="{% static '' %}mfivess.jpg" alt="009" title="009" />
+                                            <div class="overlay">
+                                                <a class="overlay_img" href="{% static '' %}mfivess.jpg" rel="lightbox" title=""></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="related_project">
+                                    <div class="overlay_a related_img">
+                                        <div class="overlay_wrapper">
+                                            <img src="{% static '' %}mfivesss.jpg" alt="0011" title="0011" />
+                                            <div class="overlay">
+                                                <a class="overlay_img" href="{% static '' %}mfivesss.jpg" rel="lightbox" title=""></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="related_project_last related_project">
+                                    <div class="overlay_a related_img">
+                                        <div class="overlay_wrapper">
+                                            <img src="{% static '' %}mfivessss.jpg" alt="0027" title="0027" />
+                                            <div class="overlay">
+                                                <a class="overlay_img" href="{% static '' %}mfivessss.jpg" rel="lightbox" title=""></a>
+
+                                            </div>
+
+
+
+
+                                        </div>
+                                    </div>
+                                  
+                                </div>
+
+
+
+
+
+
+
                             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                         </div>
 
                         <div class="clear"></div>
-                        <div class="border-line"></div>
+
 
 
 
@@ -823,11 +960,55 @@ span.psw {
 
 </div>
 
+
+
+
+
+<center><img src="{% static '' %}jore.png" alt="0081" title="insoverseas" /></center>
+
+
+
+
+
+
+
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+
+
+
+
+
+
+<center><h3> <b>Location: Jain Mandir Road, Sanganer Jaipur, (Raj.), India.</b></h3></center>
+                <center><h3> <b>Mobile number: 9829809983</b></h3></center>
+                <center><h3> <b>Phone number: 0091-141-2732342</b></h3></center>
+
+
+
+<center>
+   <a href=""><img src="{% static 'what.jpg' %}" alt="Girl in a jacket" width="30" height="30"></a>
+  <a href=""><img src="{% static 'instagram.jpg' %}" alt="Girl in a jacket" width="30" height="30"></a>
+   <a href=""><img src="{% static 'facebook.png' %}" alt="Girl in a jacket" width="30" height="30"></a>
+     <a href=""><img src="{% static 'twitter.png' %}" alt="Girl in a jacket" width="30" height="30"></a>
+     <a href=""><img src="{% static 'link.jpg' %}" alt="Girl in a jacket" width="30" height="30"></a>
+</center>
+<center><a href="mailto:info@tajpapers.com">info@insoverseas.com</a></center>
+
+</div>
+
+
+
+
+
+
 				<!-- START COPYRIGHT -->
                 <div id="copyright">
                     <div class="inner group">
                         <div class="left">
-                            <a href="http://yithemes.com/?ddownload=2046&ap_id=pinkrio-html"><strong>Download the free version for Wordpress</strong></a>
+                            <a href=""><strong>ALL RIGHTS RESERVE BY INSOVERSEAS</strong></a>
                         </div>
                         <div class="right">
                             <a href="#" class="socials-small facebook-small" title="Facebook">facebook</a>
@@ -847,7 +1028,7 @@ span.psw {
         <!-- END BG SHADOW -->
 
 
- {% include "pop.html" %}
+
 
 
         <script type="text/javascript" src="{% static '' %}js/jquery.custom.js"></script>
