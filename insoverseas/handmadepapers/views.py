@@ -113,5 +113,6 @@ def fatory (request):
 
 
 
-def Lbags (request):
-    return render(request,'Lbags.html')
+
+
+
